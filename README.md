@@ -22,9 +22,8 @@ kubectl get nodes \
 curl $(minikube service hello-minikube --url) \
 kubectl delete services hello-minikube \
 kubectl delete deployment hello-minikube \
+
 minikube stop 
-
-
 minikube delete \
 rm -rf ~/.minikube \
 rm -rf ~/.kube
