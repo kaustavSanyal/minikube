@@ -26,4 +26,5 @@ minikube stop
 
 
 minikube delete \
-rm -rf ~/.minikube
+rm -rf ~/.minikube \
+rm -rf ~/.kube
